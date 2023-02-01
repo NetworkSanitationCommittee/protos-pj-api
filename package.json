@@ -1,0 +1,28 @@
+{
+  "name": "@networksanitationcommittee/protos-pj-api",
+  "version": "1.0.0",
+  "description": "PhoneJanitor API Proto Stubs",
+  "main": "index.js",
+  "scripts": {
+    "build:protos": "$(npm bin)/proto-loader-gen-types --longs=String --enums=String --defaults --oneofs --grpcLib=@grpc/grpc-js --outDir=dist/nodejs portalapis/**/*.proto"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NetworkSanitationCommittee/protos-pj-api.git"
+  },
+  "author": "Network Sanitation Committee, LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NetworkSanitationCommittee/protos-pj-api/issues"
+  },
+  "homepage": "https://github.com/NetworkSanitationCommittee/protos-pj-api#readme",
+  "type": "module",
+  "devDependencies": {
+    "@bufbuild/protoc-gen-connect-web": "^0.6.0",
+    "@bufbuild/protoc-gen-es": "^1.0.0"
+  },
+  "dependencies": {
+    "@bufbuild/connect-web": "^0.6.0",
+    "@bufbuild/protobuf": "^1.0.0"
+  }
+}
