@@ -1,5 +1,4 @@
 syntax = "proto3";
-
 package pjprotos.v1alpha1;
 
 message HelloRequest {
