@@ -20,3 +20,4 @@ plugins:
   - plugin: buf.build/bufbuild/connect-web
     out: gen/es
     opt: target=ts
+
