@@ -15,6 +15,9 @@
   "bugs": {
     "url": "https://github.com/NetworkSanitationCommittee/protos-pj-api/issues"
   },
+  "files": [
+    "gen/es/**/*
+  ],
   "homepage": "https://github.com/NetworkSanitationCommittee/protos-pj-api#readme",
   "type": "module",
   "devDependencies": {

@@ -6,18 +6,18 @@ managed:
     except:
       - buf.build/googleapis/googleapis
 plugins:
-  - plugin: buf.build/protocolbuffers/go
+  - remote: buf.build/library/plugins/go
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: buf.build/bufbuild/connect-go
+  - remote: buf.build/library/plugins/connect-go
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: buf.build/bufbuild/es
+  - remote: buf.build/library/plugins/es
     out: gen/es
     opt: target=ts
-  - plugin: buf.build/bufbuild/connect-web
+  - remote: buf.build/library/plugins/connect-web
     out: gen/es
     opt: target=ts
 
