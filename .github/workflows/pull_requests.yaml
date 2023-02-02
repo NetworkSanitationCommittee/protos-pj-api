@@ -35,6 +35,7 @@ jobs:
       - buf-lint
     steps:
       - uses: crazy-max/ghaction-dump-context@v1
+      - uses: actions/checkout@v3
       - uses: catalystsquad/action-buf@v1
         with:
           buf-user: ${{ secrets.BUF_USER }}
