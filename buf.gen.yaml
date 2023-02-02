@@ -5,18 +5,20 @@ managed:
     default: github.com/networksanitationcommittee/protos-pj-api/gen/go
     except:
       - buf.build/googleapis/googleapis
+
 plugins:
-  - plugin: buf.build/protocolbuffers/go
+  - remote: buf.build/library/plugins/go
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: buf.build/bufbuild/connect-go
+  - remote: buf.build/bufbuild/plugins/connect-go
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: buf.build/bufbuild/es
+  - remote: buf.build/bufbuild/plugins/es
     out: gen/es
     opt: target=ts
-  - plugin: buf.build/bufbuild/connect-web
+  - remote: buf.build/bufbuild/plugins/connect-web
     out: gen/es
     opt: target=ts
+
