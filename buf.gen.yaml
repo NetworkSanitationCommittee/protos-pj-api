@@ -5,7 +5,6 @@ managed:
     default: github.com/networksanitationcommittee/protos-pj-api/gen/go
     except:
       - buf.build/googleapis/googleapis
-
 plugins:
   - remote: buf.build/library/plugins/go
     out: gen/go
