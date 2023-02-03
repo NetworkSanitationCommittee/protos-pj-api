@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/NetworkSanitationCommittee/protos-pj-api/compare/v1.0.0...v1.0.1) (2023-02-03)
+
+
+### Bug Fixes
+
+* add checkout and such to npm push ([#6](https://github.com/NetworkSanitationCommittee/protos-pj-api/issues/6)) ([321f6ca](https://github.com/NetworkSanitationCommittee/protos-pj-api/commit/321f6ca972f64d56ac74701ab6800cc5a54405da))
+* cause workflow to get actual npm package generated ([#7](https://github.com/NetworkSanitationCommittee/protos-pj-api/issues/7)) ([58cc380](https://github.com/NetworkSanitationCommittee/protos-pj-api/commit/58cc380a797d9869e289fb1296193cec1d18e8dd))
+
 # 1.0.0 (2023-02-03)
 
 
