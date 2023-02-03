@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/NetworkSanitationCommittee/protos-pj-api/compare/v1.0.1...v1.0.2) (2023-02-03)
+
+
+### Bug Fixes
+
+* ensure scoped package is public ([#8](https://github.com/NetworkSanitationCommittee/protos-pj-api/issues/8)) ([3ecdd06](https://github.com/NetworkSanitationCommittee/protos-pj-api/commit/3ecdd06161cc68847aed13576f5d9f70fb34f464))
+
 ## [1.0.1](https://github.com/NetworkSanitationCommittee/protos-pj-api/compare/v1.0.0...v1.0.1) (2023-02-03)
 
 

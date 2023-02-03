@@ -1,6 +1,6 @@
 {
   "name": "@networksanitationcommittee/pjprotos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "PhoneJanitor API Proto Stubs",
   "main": "index.js",
   "scripts": {
