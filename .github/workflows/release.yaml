@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - 'pjprotos/**'
+      - 'pjapi/**'
       - 'buf.gen.yaml'
       - 'buf.work.yaml'
 jobs:
